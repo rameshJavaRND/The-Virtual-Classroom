@@ -1,8 +1,48 @@
+:root{
+  /* --primary-color:#007BFF; */
+  --primary-colorWithOpacity:#f1f5fa;
+  --secondary-color:#757D85;
+  --warning-color:#FFC107;
+  --danger-color:#DC3545;
+  --danger-colorWithOpacity:#fdf2f3;
+  --info-color:#17A2B8;
+  --muted-color:#6C757D;
+  --success-color:#28A745;
+  --text-color-purity:#fff;
+  --text-color-dark:#000;
+  --background-color-light:#fff;
+  --background-color-dark:#000;
+  --background-color-ebony:#5C5B5B;
+  --background-color-metal:#969696;
+  --background-color-jade:#313131;
+  --background-color-raven:#050301;
+  --background-color-leather:#0B0705;
+  --background-color-pulp:#F7EDC9;
+  --color-darkTeal:#005459;
+  --color-TealWithOpacity:#F5FCF9;
+  --color-champagne:#EEE3D0;
+  --fontsize-strong:40px;
+  --fontsize-tough:32px;
+  --fontsize-pearl:28px;
+  --fontsize-trim:24px;
+  --fontsize-glossy:20px;
+  --fontsize-virgin:18px;
+  --fontsize-brittle:16px;
+}
+
+*{
+  overflow-x:hidden;
+  word-wrap: break-word;
+
+}
+::-webkit-scrollbar {
+  display: none;
+}
 body {
+  /* background-color: var(--color-champagne); */
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
