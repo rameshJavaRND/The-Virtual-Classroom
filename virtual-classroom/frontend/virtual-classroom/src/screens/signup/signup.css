@@ -1,0 +1,17 @@
+#icon_circle {
+  background-color: transparent;
+
+  border-radius: 50%;
+}
+
+#image-content {
+  height: 200px;
+}
+
+.card {
+  width: 50%;
+}
+
+#error_msg {
+  display: none;
+}
